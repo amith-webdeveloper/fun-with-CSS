@@ -1,0 +1,36 @@
+/* positions are of types: */
+/* static , relative , absolute , fixed or sticky */
+
+body{
+    height: 200vh;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: gainsboro;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.blue{
+    background-color: blue;
+    position: sticky;
+    top: 10px;
+    
+}
