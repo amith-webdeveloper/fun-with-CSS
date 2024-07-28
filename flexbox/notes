@@ -1,0 +1,40 @@
+# topics to learn in flexbox :
+# these properties are varies from containers and childrens 
+
+- to make container flex (cmd: display: flex)
+*(this makes container flex means get flexbox properties only apply for container)
+*(default it makes children in row)
+*(we can change it by flex-direction:column)
+
+
+
+======= flex container properties are: ===========
+
+@ flex-directions [column , column-reverse , row , row-reverse]
+
+@ flex-wrap (this adjust wrapping of elements default : no-wrap) [wrap , no-wrap , wrap-reverse]
+
+@ gap (gives gap between two childs) [row-gap , column-gap]
+
+@ flex-flow (combines flex-direction and flex-wrap - flex-flow: wrap row)
+
+@ justify-content (align items in x axis) [space-around , centre , space-between , flex-end]
+
+@ align-items (align items in y-axis default:strech) [flex-start , flex-end , centre]
+
+@ align-content (align items in y-axis more) [space-between , space-around , flex-start , flex-end ]
+
+
+
+
+======== flex children properties are: ============
+
+@ flex-grow (this take remaining space and adjust the space value of this decide which element grow fast) [flex-grow:1]
+
+@ flex-shrink (this shrink fast and first and value decide which element shrink first) [flex-shrink : 1]
+
+@ flex-basis (flex-basis changes the default main-axis height/width) [flex-basis:100px] 
+
+@ flex (combine flex-grow ,flex-shrink , flex-basic) [flex : flex-grow flex-shrink flex-basis] [flex: 1 2 100px]
+
+@ align self (align specific element aligns y axis) [align-self:flex-start]
